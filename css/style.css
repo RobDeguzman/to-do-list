@@ -1,3 +1,82 @@
-.header {
+.body{
+    margin: 10px 10px 10px 10px;
+    font-family: "American Typewriter";
+}
 
+.header {
+    width: 110%;
+    height: 3em;
+    padding-left: 1em;
+    background-color: lightblue;
+    border-top: .7em solid lightblue;
+    border-left: .5em solid lightblue;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+.test {
+    margin-top: 0px;
+}
+
+.AddTask {
+    font-family: "sans-serif";
+    margin: auto;
+    width: 50%;
+}
+
+.AddTaskForm {
+    font-family: sans-serif;
+    width: 40em;
+}
+
+.AddTaskLabel {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.AddTaskInput {
+    width: 25em;
+    height: 2em;
+    padding-left: .5em;
+    font-size: 1em;
+
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+.addTaskButton {
+    padding: .5em 1.5em .5em 1.5em;
+    border-radius: 2px;
+    font-size: 1em;
+}
+.addTaskButton:hover {
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ShowTask {
+    margin: auto;
+    width: 50%;
+    margin-top: 3.5em;
+}
+.ShowTaskLabel {
+    font-size: 3em;
+
+}
+.ShowTaskList {
+    font-family: Roboto;
+    font-size: 2em;
+    list-style-type: square;
+}
+.Footer {
+    height: 3em;
+    position: absolute;
+    bottom: 0px;
+    background-color: lightgray;
+    width: 110%;
+    margin-left: -8px;
+}
+.copyrightText {
+    float: right;
+    padding-bottom: 3.5em;
+    padding-left: 1em;
+    font-size: .5em;
+    opacity: .3;
 }
